@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="BotaoFlutuante.MainPage">
+   <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            
+        </Grid.RowDefinitions>
+        <ScrollView>
+            <StackLayout>
+                <Image Source="img1.jpeg" HeightRequest="200"/>
+                <Image Source="img2.jpg" HeightRequest="200"/>
+                <Image Source="img3.jpeg" HeightRequest="200"/>
+                <Image Source="img4.png" HeightRequest="200"/>
+                <Image Source="img5.png" HeightRequest="200"/>
+                <Image Source="im6.jpg" HeightRequest="200"/>
+                <Image Source="im7.jpeg" HeightRequest="200"/>
+            </StackLayout>
+        </ScrollView>
+        <Button Text="Pesquisar"
+                HorizontalOptions="End" BackgroundColor="Red" TextColor="Black"
+                WidthRequest="160" HeightRequest="70" Margin="0,0,20,22" VerticalOptions="End"
+                FontAttributes="Bold" BorderRadius="35" BorderWidth="1"></Button>
+        
+        </Grid>
+    
+</ContentPage>
